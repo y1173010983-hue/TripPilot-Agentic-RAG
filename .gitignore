@@ -1,0 +1,33 @@
+.venv/
+.venv-gpu/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+deploy/.env.infrastructure
+data/
+frontend/node_modules/
+frontend/dist/
+*.egg-info/
+coverage.xml
+.coverage
+.qa/
+deploy/volumes/
+
+# Local editor settings, runtime logs and temporary files
+.idea/
+*.log
+logs/
+~$*
+*.tmp
+*.tmp[0-9]*
+.env.*
+!.env.example
+!.env.infrastructure.example
+
+# Personal resumes and unrelated learning materials stay local
+/闫馨扬-AI应用开发工程师-1年_AgenticRAG版-微调项目改写.docx
+/闫馨扬-AI应用开发工程师-1年_AgenticRAG版.docx
+/Agentic_RAG_系统学习指南.md
+/Agentic_RAG_系统学习指南_离线阅读版.html

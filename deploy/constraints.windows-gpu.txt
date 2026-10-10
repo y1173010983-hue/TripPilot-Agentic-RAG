@@ -1,0 +1,3 @@
+# 本机 GTX 1660 Ti / 驱动 537.42：使用官方 CUDA 11.8 版 torch。
+# 先从 https://download.pytorch.org/whl/cu118 安装，再安装项目依赖。
+torch==2.7.1+cu118
